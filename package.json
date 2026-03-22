@@ -1,0 +1,35 @@
+{
+    "name": "@bigso/auth-sdk",
+    "version": "0.3.0",
+    "description": "SDK de autenticación para SSO v2.3 con iframe seguro",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup src/index.ts --format esm,cjs --dts",
+        "dev": "tsup src/index.ts --watch",
+        "lint": "eslint .",
+        "test": "vitest"
+    },
+    "dependencies": {
+        "jose": "^5.0.0"
+    },
+    "devDependencies": {
+        "tsup": "^8.0.0",
+        "typescript": "^5.0.0",
+        "eslint": "^9.0.0",
+        "vitest": "^1.0.0"
+    },
+    "keywords": [
+        "sso",
+        "autenticacion",
+        "iframe",
+        "oauth2",
+        "pkce"
+    ],
+    "author": "Bigso",
+    "license": "MIT"
+}

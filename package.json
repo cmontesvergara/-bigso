@@ -1,5 +1,5 @@
 {
-    "name": "@bigsoco/auth-sdk",
+    "name": "@bigso/auth-sdk",
     "version": "0.3.0",
     "description": "SDK de autenticación para SSO v2.3 con iframe seguro",
     "publishConfig": {
